@@ -17,4 +17,12 @@ header h1 {
 .animation {
   height: 100vh;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  position: relative;
+  overflow: hidden;
+}
+.paper-plane {
+  height: 100px;
+  top: 50%;
+  left: 0%;
+  position: absolute;
 }
